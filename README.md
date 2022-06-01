@@ -1,5 +1,7 @@
 # Pdftk::Ruby
 
+[![Gem Version](https://badge.fury.io/rb/pdftk-ruby.svg)](https://badge.fury.io/rb/pdftk-ruby)
+
 This gem provide simple wrapper command of [pdftk-java](https://gitlab.com/pdftk-java/pdftk), a port of pdftk into Java (https://gitlab.com/pdftk-java/pdftk)
 
 ## Usage
