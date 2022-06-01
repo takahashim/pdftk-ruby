@@ -5,6 +5,6 @@ require_relative "ruby/version"
 module Pdftk
   module Ruby
     class Error < StandardError; end
-    # Your code goes here...
+    JAR_DIR = File.join(File.dirname(__FILE__), "../../jar")
   end
 end

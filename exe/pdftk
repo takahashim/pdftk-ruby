@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "pdftk/ruby"
+require "pdftk/ruby/cli"
+
+cli = Pdftk::Ruby::CLI.new
+cli.execute(ARGV)
+exit($?.exitstatus)
