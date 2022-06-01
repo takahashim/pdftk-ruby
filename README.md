@@ -1,8 +1,10 @@
 # Pdftk::Ruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pdftk/ruby`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem provide simple wrapper command of [pdftk-java](https://gitlab.com/pdftk-java/pdftk), a port of pdftk into Java (https://gitlab.com/pdftk-java/pdftk)
 
-TODO: Delete this and the text above, and describe your gem
+## Usage
+
+    $ pdftk foo.pdf bar.pdf cat output buz.pdf
 
 ## Installation
 
@@ -13,10 +15,6 @@ Install the gem and add to the application's Gemfile by executing:
 If bundler is not being used to manage dependencies, install the gem by executing:
 
     $ gem install pdftk-ruby
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
