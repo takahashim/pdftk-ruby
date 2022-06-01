@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "wrapper command of pdftk-java"
   spec.description = "wrapper command of pdftk-java"
   spec.homepage = "https://github.com/takahashim/pdftk-ruby"
+  spec.license  = "GPL-2.0-or-later"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
