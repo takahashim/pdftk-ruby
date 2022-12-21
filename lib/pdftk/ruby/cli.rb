@@ -3,7 +3,7 @@ require 'pdftk/ruby'
 module Pdftk
   module Ruby
     class CLI
-      JAR_FILE = File.join(Pdftk::Ruby::JAR_DIR, 'pdftk-3.3.2/pdftk-all.jar')
+      JAR_FILE = File.join(Pdftk::Ruby::JAR_DIR, 'pdftk-3.3.3/pdftk-all.jar')
 
       def execute(args)
         ret = system("java", "-jar", JAR_FILE, *args)
